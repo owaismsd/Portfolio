@@ -3,7 +3,7 @@ import React from "react";
 function Experience() {
   return (
     <>
-      <div className="experience-section p-4 mt-7">
+      <div className="experience-section p-4 mt-14">
         <div className="heading flex items-center gap-2">
           <i class="fa-solid fa-briefcase text-3xl"></i>
           <h1 className="text-xl tracking-wide">Experience</h1>
