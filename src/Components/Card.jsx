@@ -1,12 +1,12 @@
 import React from "react";
-
+import logo from "/src/assets/owaispng1.png";
 function Card() {
   return (
     <>
       <div className="profile-container border-[#292929] border-2 m-4 rounded-3xl h-145 md:h-151 md:w-[84%] md:m-13 bg-[#101010]">
         <div className="content text-center">
           <div className="image flex justify-center border-[#292929] border-2 m-4 rounded-2xl">
-            <img src="owaispng1.png" className="rounded-2xl" />
+            <img src={logo} className="rounded-2xl" />
           </div>
           <button className="border-[#292929] border-2 m-4 rounded-lg p-2 ps-5 pe-5 flex items-center gap-3 m-auto">
             <i class="fa-solid fa-circle fa-beat-fade text-[8px] text-[#4eb040]"></i>{" "}
@@ -26,18 +26,18 @@ function Card() {
               <i class="fa-brands fa-youtube"></i>
             </span>
             <span className="border-2 border-[#292929] rounded-xl p-1 text-2xl m-1">
-            <i class="fa-solid fa-bell"></i>
+              <i class="fa-solid fa-bell"></i>
             </span>
             <span className="border-2 border-[#292929] rounded-xl p-1 text-2xl m-1">
-            <i class="fa-solid fa-share"></i>
+              <i class="fa-solid fa-share"></i>
             </span>
           </div>
 
           <button className="border-[#292929] border-1 me-2 p-2 rounded-lg bg-[#232323]">
-          <i class="fa-solid fa-download"></i> Download CV
+            <i class="fa-solid fa-download"></i> Download CV
           </button>
           <button className="mt-5 p-2 rounded-lg bg-[#22d37df8] text-black border-[#292929] border-2">
-          <i class="fa-regular fa-paper-plane"></i> Contact Me
+            <i class="fa-regular fa-paper-plane"></i> Contact Me
           </button>
         </div>
       </div>
