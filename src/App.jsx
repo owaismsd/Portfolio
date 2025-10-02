@@ -5,7 +5,7 @@ import Experience from "./Components/Experience.jsx";
 import Projects from "./Components/Projects.jsx";
 import Education from "./Components/Education.jsx";
 import Contact from "./Components/Contact.jsx";
-
+import logo from "/src/assets/owaispng1.png";
 function App() {
   return (
     <>
@@ -23,7 +23,7 @@ function App() {
       </div>
 
       <div className="fotter flex items-center gap-5 justify-center bg-[#101010] h-20 border-[#272727] border-t-2 mt-8">
-        <img src="owaispng1.png" className="w-12 rounded-4xl" alt="" />
+        <img src={logo} className="w-12 rounded-4xl" alt="" />
         <h1>Owais Ahmad</h1>
       </div>
     </>
