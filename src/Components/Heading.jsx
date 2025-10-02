@@ -5,14 +5,14 @@ function Heading() {
     <>
 
 <div className="content p-4">
-        <p className="pb-4 text-stone-300 text-lg">👋 Say Hello</p>
+        <p className="pb-4 text-stone-300 text-lg">👋 Hello</p>
         <div className="heading text-3xl font-medium pb-5">
           <h1>I'm Owias Ahmad,</h1>
           <h1 className="text-[#22d37df8]">Web Designer</h1>
           <h1>Creating user-friendly digital experiences. </h1>
         </div>
 
-        <p className="leading-relaxed">
+        <p className="leading-relaxed md:text-lg md:text-[#c8c8c8]">
           I specialize in creating clean, user-friendly digital experiences by
           blending creativity with functionality. With a strong background in
           interactive design, I focus on crafting designs that not only look
