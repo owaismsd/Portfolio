@@ -1,5 +1,5 @@
 import React from "react";
-import { Card } from "./Components/Card.jsx";
+import Card from "./Components/Card.jsx";
 import Heading from "./Components/Heading.jsx";
 import Experience from "./Components/Experience.jsx";
 import Projects from "./Components/Projects.jsx";
