@@ -9,7 +9,7 @@ function Heading() {
         <div className="heading text-3xl font-medium pb-5">
           <h1>I'm Owias Ahmad,</h1>
           <h1 className="text-[#22d37df8]">Web Designer</h1>
-          <h1>Based in Los Angeles, CA.</h1>
+          <h1>Creating user-friendly digital experiences. </h1>
         </div>
 
         <p className="leading-relaxed">
@@ -22,16 +22,16 @@ function Heading() {
         {/* Experiences */}
         <div className="flex-content grid grid-cols-2 md:grid-cols-4 gap-4 pt-8">
           <div className="one text-center">
-            <h1 className="font-medium text-3xl pb-3">30+</h1>
+            <h1 className="font-medium text-3xl pb-3">15+</h1>
             <p className="text-gray-300">Complated Projects</p>
           </div>
           <div className="two text-center">
-            <h1 className="font-medium text-3xl pb-3">8+</h1>
+            <h1 className="font-medium text-3xl pb-3">4+</h1>
             <p className="text-gray-300">Years of Experience</p>
           </div>
 
           <div className="three text-center">
-            <h1 className="font-medium text-3xl pb-3">36+</h1>
+            <h1 className="font-medium text-3xl pb-3">12+</h1>
             <p className="text-gray-300">Happy Clients</p>
           </div>
           <div className="four text-center">
