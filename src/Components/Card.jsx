@@ -8,7 +8,7 @@ function Card() {
           <div className="image flex justify-center border-[#292929] border-2 m-4 rounded-2xl">
             <img src={logo} className="rounded-2xl" />
           </div>
-          <button className="border-[#292929] border-2 m-4 rounded-lg p-2 ps-5 pe-5 flex items-center gap-3 m-auto">
+          <button className="border-[#292929] border-2 rounded-lg p-2 ps-5 pe-5 flex items-center gap-3 m-auto">
             <i class="fa-solid fa-circle fa-beat-fade text-[8px] text-[#4eb040]"></i>{" "}
             Available for work
           </button>
