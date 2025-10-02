@@ -1,10 +1,10 @@
 import React from "react";
 import Card from "./components/Card";
-import Heading from "./Components/Heading";
-import Experience from "./Components/Experience";
-import Projects from "./Components/Projects";
-import Education from "./Components/Education";
-import Contact from "./Components/Contact";
+import Heading from "./components/Heading";
+import Experience from "./components/Experience";
+import Projects from "./components/Projects";
+import Education from "./components/Education";
+import Contact from "./components/Contact";
 
 function App() {
   return (

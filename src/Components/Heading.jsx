@@ -1,13 +1,12 @@
-import React from 'react'
+import React from "react";
 
 function Heading() {
   return (
     <>
-
-<div className="content p-4">
+      <div className="content p-4">
         <p className="pb-4 text-stone-300 text-lg">👋 Hello</p>
         <div className="heading text-3xl font-medium pb-5">
-          <h1>I'm Owias Ahmad,</h1>
+          <h1>I'm Owais Ahmad,</h1>
           <h1 className="text-[#22d37df8]">Web Designer</h1>
           <h1>Creating user-friendly digital experiences. </h1>
         </div>
@@ -40,9 +39,8 @@ function Heading() {
           </div>
         </div>
       </div>
-    
     </>
-  )
+  );
 }
 
 export default Heading;
