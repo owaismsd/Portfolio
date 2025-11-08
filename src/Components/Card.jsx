@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "/src/assets/owaispng1.png";
+import resume from "/src/assets/Owais_Ahmad_Resume.pdf";
 function Card() {
   return (
     <>
@@ -34,7 +35,10 @@ function Card() {
           </div>
 
           <button className="border-[#292929] border-1 me-2 p-2 rounded-lg bg-[#232323]">
-            <i class="fa-solid fa-download"></i> Download CV
+            <i class="fa-solid fa-download"></i>{" "}
+            <a href={resume} download="resume">
+              Download CV
+            </a>
           </button>
           <button className="mt-5 p-2 rounded-lg bg-[#22d37df8] text-black border-[#292929] border-2">
             <i class="fa-regular fa-paper-plane"></i> Contact Me
