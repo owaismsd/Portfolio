@@ -10,11 +10,11 @@ function Education() {
         </div>
 
         <div className="mini-card border-[#292929] border-2 bg-[#101010] rounded-xl p-4 mt-5">
-          <h1 className="text-xl font-medium">NUML University Islamabad</h1>
+          <h1 className="text-xl font-medium">Virtual University Islamabad</h1>
           <p className="text-[#a2a2a2] text-sm pt-1">BSCS</p>
 
           <button className="bg-[#1f1f1f] text-lg font-medium p-1 ps-3 pe-3 rounded-sm mb-3 mt-2 border-[#292929] border-2">
-            2025 - Present
+            2026 - Present
           </button>
           <hr className="text-[#373737] h-3 m-auto rounded-4xl" />
 
