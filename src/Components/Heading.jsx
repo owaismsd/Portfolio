@@ -7,7 +7,7 @@ function Heading() {
         <p className="pb-4 text-stone-300 text-lg">👋 Hello</p>
         <div className="heading text-3xl font-medium pb-5">
           <h1>I'm Owais Ahmad,</h1>
-          <h1 className="text-[#22d37df8]">Web Designer</h1>
+          <h1 className="text-[#22d37df8]">Web Developer</h1>
           <h1>Creating user-friendly digital experiences. </h1>
         </div>
 
